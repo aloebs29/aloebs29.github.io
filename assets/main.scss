@@ -1,0 +1,38 @@
+---
+---
+
+@import "minima";
+
+
+.contact-input {
+    font-size: $base-font-size;
+    border-style: solid;
+    border-radius: 3px;
+    resize: none;
+    margin-bottom: $spacing-unit;
+    padding: $base-font-size * 0.5;
+    width: 100%;
+    box-sizing: border-box;
+
+    &:focus {
+        border:2px solid $grey-color;
+        outline: none;
+    }
+    &.contact-textarea {
+        height: 300px;
+        resize: vertical;
+    }
+}
+
+
+.contact-submit {
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    background: $grey-color;
+    color: white;
+    font-size: $base-font-size;
+    padding: $base-font-size * 0.5;
+
+    &:hover { background: $grey-color-dark; }
+}
