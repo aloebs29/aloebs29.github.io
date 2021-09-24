@@ -19,7 +19,7 @@ This project is intended to be the "minimum implementation" needed to tie a FAT 
 
 Build and task automation system written in python; intended to be simple to understand and easy to extend with a `halfling.py` file in your project root. Currently supports C and C++ builds out of the box (with incremental builds based on file modified times); supports custom/user-defined builds and generic tasks.
 
-### [Z Quad Rotor](https://github.com/aloebs29/z_quad_rotor)
+### [Zephyr Quad Rotor](https://github.com/aloebs29/zephyr_quad_rotor)
 
 **WIP** A quad rotor flight controller written in C++ with the [Zephyr RTOS](https://github.com/zephyrproject-rtos/zephyr). Currently does multi-threaded sampling of an accelerometer/gyroscope, magnetometer, and pressure sensor, as well as filtering/fusion of these sensors for orientation and altitude.
 
